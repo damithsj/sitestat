@@ -1,0 +1,7 @@
+Effective URL\t: %{url_effective}\n
+Response Code\t: %{response_code}\n
+DNS Lookup\t: %{time_namelookup}\n
+TCP Handshake\t: \t|_ %{time_connect}\n
+SSL Handshake\t: \t\t|_ %{time_appconnect}\n
+Wait\t\t: \t\t\t|_ %{time_starttransfer}\n
+Data Transfer\t: \t\t\t\t|_ %{time_total}

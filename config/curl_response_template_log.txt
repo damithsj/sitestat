@@ -1,0 +1,1 @@
+%{url_effective};%{response_code};%{time_namelookup};%{time_connect};%{time_appconnect};%{time_starttransfer};%{time_total};
