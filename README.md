@@ -1,6 +1,6 @@
 sitestat
 ========
-This tool is a cURL based utility for Windows to retrive website status and time to connect.
+sitestat is a cURL based utility for Windows to retrive website status and time to connect.
 
 ## Requirements
 
