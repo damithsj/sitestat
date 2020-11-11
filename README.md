@@ -10,7 +10,7 @@ This tool is a cURL based utility for Windows to retrive website status and time
 ## Installation
 * Download [sitestat](https://github.com/damithsj/sitestat/archive/main.zip) to a local directory
 * Install cURL for [windows](https://curl.se/windows/)
-* Add cURL location to the PATH variable
+* Add cURL location upto bin to the PATH variable
 
 ## Usage
 sitestat can be used to visualize web site loading stats as well as save stats to a file.
