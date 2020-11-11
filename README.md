@@ -1,6 +1,4 @@
-sitestat
-========
-sitestat is a cURL based utility for Windows to retrive website status and time to connect.
+# Windows Utility to Retrive Website Status and Connectivity Details.
 
 ## Requirements
 
