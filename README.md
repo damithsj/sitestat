@@ -1,4 +1,4 @@
-# Windows Utility to Retrive Website Status and Connectivity Details.
+# Windows Utility to Retrieve Website Status and Connectivity Details.
 
 ## Requirements
 
