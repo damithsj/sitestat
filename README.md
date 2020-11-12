@@ -1,6 +1,4 @@
-sitestat
-========
-This tool is a cURL based utility for Window to retrive website status and time to connect.
+# Windows Utility to Retrieve Website Status and Connectivity Details.
 
 ## Requirements
 
@@ -8,15 +6,15 @@ This tool is a cURL based utility for Window to retrive website status and time 
 * PowerShell
 
 ## Installation
-* Download the sitestat.cmd script and config directory
-* Install cURL [windows](https://curl.se/windows/)
-* Add cURL location to the PATH variable
+* Download [sitestat](https://github.com/damithsj/sitestat/archive/main.zip) to a local directory
+* Install cURL for [windows](https://curl.se/windows/)
+* Add cURL location upto bin to the PATH environment variable
 
 ## Usage
 sitestat can be used to visualize web site loading stats as well as save stats to a file.
-* Visualize website stats.
+### Visualize Website Stats
 ```
->sitestat website_url
+sitestat website_url
 ```
 Output is the timings in each step of the connection to the website until data is loaded.
 ```
@@ -29,9 +27,9 @@ SSL Handshake   :               |_ 0.328000
 Wait            :                       |_ 0.734000
 Data Transfer   :                               |_ 1.031000
 ```
-* Save website stats
+### Save Website Stats
 ```
->sitestat website_url filename
+sitestat website_url filename
 ```
 This option writes timings in semicolon seperated format to the given file. 
 Entry starts with the Timestamp so you can schedule the script to periodically retrive website stats.
