@@ -32,7 +32,7 @@ Data Transfer   :                               |_ 1.031000
 sitestat website_url filename
 ```
 This option writes timings in semicolon seperated format to the given file. 
-Entry starts with the Timestamp so you can schedule the script to periodically retrive website stats.
+Entry starts with the Timestamp so you can schedule the script to periodically retrive website stats. Check the scheduler for example windows schedule task. 
 
 ```
 2020-11-11 18:00:00;https://dsj23.me/;200;0.110000;0.141000;0.188000;0.485000;0.829000; 
