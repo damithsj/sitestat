@@ -14,7 +14,7 @@
 sitestat can be used to visualize web site loading stats as well as save stats to a file.
 ### Visualize Website Stats
 ```
-sitestat website_url
+>sitestat website_url
 ```
 Output is the timings in each step of the connection to the website until data is loaded.
 ```
@@ -29,7 +29,7 @@ Data Transfer   :                               |_ 1.031000
 ```
 ### Save Website Stats
 ```
-sitestat website_url filename
+>sitestat website_url filename
 ```
 This option writes timings in semicolon seperated format to the given file. 
 Entry starts with the Timestamp so you can schedule the script to periodically retrive website stats. Check the scheduler for example windows schedule task. 
